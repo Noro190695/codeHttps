@@ -1,7 +1,5 @@
-$dasktop: 1440px;
-$ipadePro: 1024px;
-$ipade: 768px;
-$mobile: 480px;
+@import './var';
+@import './courses.media';
 
 @media (max-width: $dasktop){
     .margin__top{
@@ -333,3 +331,4 @@ $mobile: 480px;
         }
     }
 }
+

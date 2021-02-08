@@ -1,0 +1,85 @@
+.courses{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    .courses__title{
+      font-size: 72px;
+      color: $color-1;
+      margin-top: 0;
+      margin-bottom: 50px;
+    
+    }
+    .courses__inner{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 300px;
+        flex-wrap: wrap;
+        
+        
+        .courses__card{
+            border: 1px solid $main-color;
+            padding: 20px 45px ;
+            box-shadow: 10px 10px 10px #D5D5D5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+            &-title{
+                font-size: 64px;
+                color: $main-color;
+                margin: 0;
+            }
+            .courses__card-img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 25px;
+
+                img{
+                    width: 80%;
+                }
+            }
+            &:nth-child(1){
+                .courses__card-img{
+                    background-color: $main-color;
+                }
+            }
+            &:nth-child(2){
+                .courses__card-img{
+                    background-color: $color-2;
+                }
+            }
+            &:nth-child(3){
+                .courses__card-img{
+                    background-color: $color-1;
+                }
+            }
+            .courses__card-info{
+                margin-top: 25px;
+                p{
+                    font-size: 18px;
+                    color: $color-1;
+                    display: flex;
+                    align-items: center;
+
+                    span{
+                        display: block;
+                        width: 30px;
+                        height: 30px;
+                        font-size: 25px;
+                        color: $main-color;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

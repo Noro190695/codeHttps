@@ -1,0 +1,187 @@
+
+@media (max-width: $dasktop){
+    .courses{ 
+        
+        .courses__title{
+          font-size: 46px;
+       
+          margin-bottom:25px;
+        
+        }
+        .courses__inner{
+            
+            .courses__card{
+                width: 350px;
+                padding: 10px 20px;
+                
+                &-title{
+                    font-size: 36px;
+                
+                }
+                .courses__card-img{
+                    width: 200px;
+                    height: 200px;
+                    margin-top: 15px;
+                }
+            
+                .courses__card-info{
+                    margin-top: 25px;
+                    p{
+                        font-size: 14px;
+    
+                        span{
+                            display: block;
+                            width: 30px;
+                            height: 30px;
+                            font-size: 20px;
+                        
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and(max-width: $ipadePro){
+    .courses{ 
+        
+        .courses__title{
+          font-size: 36px;
+        }
+        .courses__inner{
+            padding: 0px 30px;
+            .courses__card{
+                width: 400px;
+               
+                margin-top: 30px;
+            
+                
+                &-title{
+                    font-size: 36px;
+                
+                }
+                .courses__card-img{
+                    width: 250px;
+                    height: 250px;
+                    margin-top: 15px;
+                }
+            
+                .courses__card-info{
+                    margin-top: 30px;
+                    p{
+                        font-size: 18px;
+    
+                        span{
+                            display: block;
+                            width: 30px;
+                            height: 30px;
+                            font-size: 25px;
+                        
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+               
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $ipade){
+    .desktop__courses{
+        display: none;
+    }
+    .mobile__courses{
+        display: block;
+    }
+    .courses{ 
+        
+        .courses__title{
+          font-size: 72px;
+          margin: 0;
+        }
+        .courses__inner{
+            padding: 0px 20px;
+            .courses__card{
+                width: 100%;
+                         
+                
+                &-title{
+                    font-size: 42px;
+                
+                }
+                .courses__card-img{
+                    width: 500px;
+                    height: 500px;
+                    margin-top: 15px;
+                }
+            
+                .courses__card-info{
+                    margin-top: 15px;
+                    p{
+                        font-size: 24px;
+    
+                        span{
+                            display: block;
+                            width: 35px;
+                            height: 35px;
+                            font-size: 28px;
+                        
+                            margin-right: 20px;
+                        }
+                    }
+                }
+
+               
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $mobile){
+    .courses{ 
+        
+        .courses__title{
+          font-size: 42px;
+        }
+        .courses__inner{
+            padding: 0px 10px;
+            .courses__card{
+                width: 100%;
+                         
+                
+                &-title{
+                    font-size: 28px;
+                
+                }
+                .courses__card-img{
+                    width: 250px;
+                    height: 250px;
+                    margin-top: 15px;
+                }
+            
+                .courses__card-info{
+                    margin-top: 10px;
+                    p{
+                        font-size: 14px;
+                    
+    
+                        span{
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+                            font-size: 18px;
+        
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+               
+            }
+        }
+    }
+}

@@ -229,8 +229,11 @@ header{
     width: 100%;
     height: 110px;
 }
+.mobile__courses{
+    display: none;
+}
 
-
+@import './courses';
 
 
 @import './media';
