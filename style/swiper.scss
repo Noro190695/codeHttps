@@ -1,0 +1,30 @@
+@import './var';
+
+.swiper-container {
+  width: 100%;
+  height: calc(100% - 120px);
+
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+  
+}
+.swiper-pagination-bullet{
+    width: 10px;
+    height: 10px;
+    background-color: $color-1;
+}
+.swiper-pagination-bullet-active{
+
+    background-color: $main-color;
+}
+
+@media (max-width: 1440px) {
+    .swiper-container {
+       
+        height: calc(100% - 80px);
+      
+      }
+}

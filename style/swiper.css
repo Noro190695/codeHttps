@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Heebo;
+  src: url(../fonts/Heebo-Bold.ttf) url(../fonts/Heebo-Regular.ttf);
+}
+.swiper-container {
+  width: 100%;
+  height: calc(100% - 120px);
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #455A64;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #49AC45;
+}
+
+@media (max-width: 1440px) {
+  .swiper-container {
+    height: calc(100% - 80px);
+  }
+}/*# sourceMappingURL=swiper.css.map */
