@@ -251,15 +251,6 @@ header .header__right__menu .auth a:hover {
 .courses .courses__inner .courses__card .courses__card-img img {
   width: 80%;
 }
-.courses .courses__inner .courses__card:nth-child(1) .courses__card-img {
-  background-color: #49AC45;
-}
-.courses .courses__inner .courses__card:nth-child(2) .courses__card-img {
-  background-color: #EC8E00;
-}
-.courses .courses__inner .courses__card:nth-child(3) .courses__card-img {
-  background-color: #455A64;
-}
 .courses .courses__inner .courses__card .courses__card-info {
   margin-top: 25px;
 }
@@ -276,6 +267,15 @@ header .header__right__menu .auth a:hover {
   font-size: 25px;
   color: #49AC45;
   margin-right: 15px;
+}
+.courses .courses__inner .design .courses__card-img {
+  background-color: #49AC45;
+}
+.courses .courses__inner .front__end .courses__card-img {
+  background-color: #EC8E00;
+}
+.courses .courses__inner .back__end .courses__card-img {
+  background-color: #455A64;
 }
 
 @font-face {

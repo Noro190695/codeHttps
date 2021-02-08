@@ -47,21 +47,7 @@
                     width: 80%;
                 }
             }
-            &:nth-child(1){
-                .courses__card-img{
-                    background-color: $main-color;
-                }
-            }
-            &:nth-child(2){
-                .courses__card-img{
-                    background-color: $color-2;
-                }
-            }
-            &:nth-child(3){
-                .courses__card-img{
-                    background-color: $color-1;
-                }
-            }
+           
             .courses__card-info{
                 margin-top: 25px;
                 p{
@@ -79,6 +65,21 @@
                         margin-right: 15px;
                     }
                 }
+            }
+        }
+        .design{
+            .courses__card-img{
+                background-color: $main-color;
+            }
+        }
+        .front__end{
+            .courses__card-img{
+                background-color: $color-2;
+            }
+        }
+        .back__end{
+            .courses__card-img{
+                background-color: $color-1;
             }
         }
     }
