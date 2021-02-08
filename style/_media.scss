@@ -226,7 +226,7 @@ $mobile: 480px;
         padding: 0px;
         .header__nav{
             position: absolute;
-            width: 50%;
+            width: 100%;
             top: 100px;
             right: 0;
             background-color: $color-1;
@@ -258,7 +258,7 @@ $mobile: 480px;
             }
         }
         .header__right__menu{
-            width: 50%;
+            width: 100%;
             position: absolute;
             right: 0;
             top: 50px;

@@ -354,7 +354,7 @@ header .header__right__menu .auth a:hover {
   }
   header .header__nav {
     position: absolute;
-    width: 50%;
+    width: 100%;
     top: 100px;
     right: 0;
     background-color: #455A64;
@@ -380,7 +380,7 @@ header .header__right__menu .auth a:hover {
     margin-top: 10px;
   }
   header .header__right__menu {
-    width: 50%;
+    width: 100%;
     position: absolute;
     right: 0;
     top: 50px;
