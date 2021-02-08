@@ -1,6 +1,6 @@
 @import './var';
 
-.swiper-container {
+.swiper-container{
   width: 100%;
   height: calc(100% - 120px);
 
@@ -22,11 +22,53 @@
     background-color: $color-1;
  
 }
+.inset__swiper-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .swiper-button-next{
+       right: 50px;
+    }
+    .swiper-button-prev{
+       left: 50px;
+
+    }
+    .swiper-pagination{
+        .swiper-pagination-bullet{
+            width: 100px;
+            height: 9px;
+            border-radius: 0;
+        }
+    }
+}
 
 @media (max-width: 1440px) {
-    .swiper-container {
+    .swiper-container{
        
         height: calc(100% - 80px);
       
       }
+}
+@media (max-width: 480px) {
+    .swiper-container{
+       
+        .swiper-button-next{
+            right: 20px;
+         }
+         .swiper-button-prev{
+            left: 20px;
+     
+         }
+      
+      }
+      .inset__swiper-container{
+
+        .swiper-pagination{
+            .swiper-pagination-bullet{
+                width: 50px;
+                height: 5px;
+               
+            }
+        }
+    }
 }
