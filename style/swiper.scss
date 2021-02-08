@@ -15,10 +15,12 @@
     width: 10px;
     height: 10px;
     background-color: $color-1;
+    transition: .3s;
 }
 .swiper-pagination-bullet-active{
 
-    background-color: $main-color;
+    background-color: $color-1;
+ 
 }
 
 @media (max-width: 1440px) {

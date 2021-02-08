@@ -16,10 +16,11 @@
   width: 10px;
   height: 10px;
   background-color: #455A64;
+  transition: 0.3s;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #49AC45;
+  background-color: #455A64;
 }
 
 @media (max-width: 1440px) {
