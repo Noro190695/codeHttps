@@ -1,6 +1,8 @@
 .animate__content__title {
-  transform: translateY(50px);
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
   opacity: 0;
+  -webkit-transition: 1s;
   transition: 1s;
   -webkit-animation: anim 1s linear;
           animation: anim 1s linear;
@@ -8,14 +10,17 @@
 
 @-webkit-keyframes anim {
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
 }
 
 @keyframes anim {
   100% {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
     opacity: 1;
   }
-}/*# sourceMappingURL=animation.css.map */
+}
+/*# sourceMappingURL=animation.css.map */

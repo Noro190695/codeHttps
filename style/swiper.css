@@ -2,6 +2,7 @@
   font-family: Heebo;
   src: url(../fonts/Heebo-Bold.ttf) url(../fonts/Heebo-Regular.ttf);
 }
+
 .swiper-container {
   width: 100%;
   height: calc(100% - 120px);
@@ -16,7 +17,8 @@
   width: 10px;
   height: 10px;
   background-color: #455A64;
-  transition: 0.3s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .swiper-pagination-bullet-active {
@@ -28,12 +30,15 @@
   height: 100%;
   position: relative;
 }
+
 .inset__swiper-container .swiper-button-next {
   right: 50px;
 }
+
 .inset__swiper-container .swiper-button-prev {
   left: 50px;
 }
+
 .inset__swiper-container .swiper-pagination .swiper-pagination-bullet {
   width: 100px;
   height: 9px;
@@ -45,6 +50,7 @@
     height: calc(100% - 80px);
   }
 }
+
 @media (max-width: 480px) {
   .swiper-container .swiper-pagination {
     display: none;
@@ -55,7 +61,6 @@
   .swiper-container .swiper-button-prev {
     display: none;
   }
-
   .inset__swiper-container .swiper-pagination {
     display: block;
   }
@@ -64,4 +69,5 @@
     height: 3px;
     border-radius: 0;
   }
-}/*# sourceMappingURL=swiper.css.map */
+}
+/*# sourceMappingURL=swiper.css.map */

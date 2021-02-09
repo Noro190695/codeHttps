@@ -21,13 +21,15 @@
         el.addEventListener('click', function (e)  {
            let link = this.href.match(/#\w+/)[0];
            
-           if (link === '#footer') {
-               el.href = '#main'
-               el.style = 'transform: rotate(180deg)';
-           }else{
-               el.href = '#footer'
-               el.style = 'transform: rotate(0deg)';
-           }
+           setTimeout(() => {
+            if (link === '#footer') {
+                el.href = '#main'
+                el.style = 'transform: rotate(180deg)';
+            }else{
+                el.href = '#footer'
+                el.style = 'transform: rotate(0deg)';
+            }
+           },50)
       
         })
    
