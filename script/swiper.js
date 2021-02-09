@@ -26,3 +26,4 @@ let insetSwiper = new Swiper('.inset__swiper-container', {
         prevEl: '.swiper-button-prev',
       },
   });
+

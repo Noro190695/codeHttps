@@ -1,0 +1,14 @@
+.animate__content__title{
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s;
+    animation:  anim 1s linear ;
+}
+
+@keyframes anim {
+  
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
